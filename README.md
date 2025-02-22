@@ -20,6 +20,6 @@ Code for combining a Raspberry Pi Zero 2 WH computer with an Adafruit MCP9808 te
 
 ## Please Note
 
-There are two kinds of graphs available for exploring your temperature measurements. The first (type of) chart displays an average twenty four hour period, based on all of your readings. Whereas the second variety of charts displays each day's measurements, from when measurements began until their ending.
+There are three kinds of graphs available for exploring your temperature measurements. The first visualization displays average hourly temperatures as a line graph. The second (type of) chart displays an average twenty four hour period based on all of your readings. Whereas the third variety of charts displays each day's readings from when measurements began until their ending.
 
-Also, in my experience, the Python file will generate between three and four megabytes of data every twenty four hours. Although your results may vary.
+Also, in my experience, the Python file will generate between two and three megabytes of data every twenty four hours. Although your results may vary.
