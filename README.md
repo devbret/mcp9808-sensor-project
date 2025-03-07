@@ -4,7 +4,7 @@
 
 ## About
 
-Code for combining a Raspberry Pi Zero 2 WH computer with an Adafruit MCP9808 temperature sensor. The files in this repo are related to [the following Hackaday.io project](https://hackaday.io/project/202152-enviropi-temp-monitor).
+Code for combining a Raspberry Pi Zero 2 WH computer with an Adafruit MCP9808 temperature sensor to measure ambient air temperatures. The files in this repo are related to [the following Hackaday.io project](https://hackaday.io/project/202152-enviropi-temp-monitor).
 
 ## Instructions
 
@@ -22,4 +22,8 @@ Code for combining a Raspberry Pi Zero 2 WH computer with an Adafruit MCP9808 te
 
 There are three kinds of graphs available for exploring your temperature measurements. The first visualization displays average hourly temperatures as a line graph. The second (type of) chart displays an average twenty four hour period based on all of your readings. Whereas the third variety of charts displays each day's readings from when measurements began until their ending.
 
-Also, in my experience, the Python file will generate between two and three megabytes of data every twenty four hours. Although your results may vary.
+In my experience, the Python file will generate between two and three megabytes of data every twenty four hours. Although your results may vary.
+
+## Please Also Note
+
+When attempting to load visualizations of your data, the process may take several minutes to complete. As well, you will likely consume more RAM than expected by doing so. Please take these points into consideration when launching your files.
