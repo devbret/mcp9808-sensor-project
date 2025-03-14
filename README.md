@@ -26,4 +26,4 @@ In my experience, the Python file will generate between two and three megabytes 
 
 ## Please Also Note
 
-When attempting to load visualizations of your data, the process may take several minutes to complete. As well, you will likely consume more RAM than expected by doing so. Please take these points into consideration when launching your files.
+When attempting to load visualizations of your data, the process may take several minutes to complete. As well, you will likely consume more RAM than expected by doing so. Please take these points into consideration when launching your HTML, CSS and JavaScript files.
