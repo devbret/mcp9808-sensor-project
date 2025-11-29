@@ -1,6 +1,6 @@
 # MCP9808 Sensor Project
 
-![Visualization of the average temperatures for every minute from six twenty four hour periods.](https://hosting.photobucket.com/bbcfb0d4-be20-44a0-94dc-65bff8947cf2/083a8baa-9cbe-4435-9a2b-825bd9222ec2.jpg)
+![Visualization of the average temperatures for every minute from six twenty four hour periods.](https://hosting.photobucket.com/bbcfb0d4-be20-44a0-94dc-65bff8947cf2/521c70bc-83e4-4bd4-844a-854bc8118bb9.png)
 
 ## About
 
