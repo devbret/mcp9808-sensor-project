@@ -1,6 +1,6 @@
 # MCP9808 Sensor Project
 
-![Visualization of the average temperatures for every minute from six twenty four hour periods.](https://hosting.photobucket.com/bbcfb0d4-be20-44a0-94dc-65bff8947cf2/521c70bc-83e4-4bd4-844a-854bc8118bb9.png)
+![Average hourly temperatures visualized over a period of time.](https://hosting.photobucket.com/bbcfb0d4-be20-44a0-94dc-65bff8947cf2/9a1d2e94-4799-4967-9ea5-164848e3397c.png)
 
 Code for combining a Raspberry Pi Zero 2 WH computer with an Adafruit MCP9808 temperature sensor to measure ambient air temperatures. The files in this repo are related to [the following Hackaday.io project](https://hackaday.io/project/202152-enviropi-temp-monitor).
 
