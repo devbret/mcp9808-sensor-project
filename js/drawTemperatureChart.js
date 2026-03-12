@@ -10,7 +10,7 @@ export async function drawTemperatureChart() {
     .rollups(
       data,
       (v) => d3.mean(v, (d) => d.temperature),
-      (d) => d3.timeHour(d.timestamp)
+      (d) => d3.timeHour(d.timestamp),
     )
     .map(([hour, avgTemp]) => ({ hour, avgTemp }));
 
@@ -58,7 +58,7 @@ export async function drawTemperatureChart() {
       d3
         .axisBottom(xScale)
         .ticks(d3.timeHour.every(6))
-        .tickFormat(d3.timeFormat("%b %d %H:%M"))
+        .tickFormat(d3.timeFormat("%b %d %H:%M")),
     )
     .selectAll("text")
     .attr("transform", "rotate(-45)")

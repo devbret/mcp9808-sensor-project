@@ -22,7 +22,7 @@ d3.csv("temperature_log.csv", d3.autoType).then((data) => {
     data,
     (v) => d3.mean(v, (d) => d["Temperature (°C)"]),
     (d) => d.Timestamp.getHours(),
-    (d) => d.Timestamp.getMinutes()
+    (d) => d.Timestamp.getMinutes(),
   );
 
   const avgData = [];

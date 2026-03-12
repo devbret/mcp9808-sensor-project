@@ -37,7 +37,7 @@ export function createHeatmaps(groupedData, uniqueDates) {
       .append("g")
       .attr(
         "transform",
-        `translate(0, ${index * (heightPerDay + margin.top)})`
+        `translate(0, ${index * (heightPerDay + margin.top)})`,
       );
 
     g.append("text")
@@ -53,7 +53,7 @@ export function createHeatmaps(groupedData, uniqueDates) {
       .call(d3.axisBottom(x).tickFormat((d) => `${d}:00`));
 
     g.append("g").call(
-      d3.axisLeft(y).tickFormat((d) => `:${d < 10 ? "0" + d : d}`)
+      d3.axisLeft(y).tickFormat((d) => `:${d < 10 ? "0" + d : d}`),
     );
 
     g.selectAll("rect")
